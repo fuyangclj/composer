@@ -1,0 +1,21 @@
+{
+    "name": "fuyangclj/project1",
+    "description": "this is my description",
+    "type": "library",
+    "require": {
+        "php": ">=5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "china",
+            "email": "123@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Name1\\Name2\\": "src/Name1/Name2"
+        }
+    }
+}
